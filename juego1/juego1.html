@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego 1</title>
+    <link rel="stylesheet" href="juego1.css">
+</head>
+<body>
+    <header>
+        <h1>FutbolHamaika - Juego 1</h1>
+    </header>
+    <main>
+        <h2>Adivina el Jugador Vasco</h2>
+        <div id="imagen-difuminada"></div>
+        <label for="nombre-jugador">Nombre del Jugador:</label>
+        <input type="text" id="nombre-jugador" maxlength="50">
+        <button onclick="verificarRespuesta()">Verificar</button>
+        <p id="intentos-restantes">Intentos restantes: 5</p>
+        <p id="mensaje-resultado"></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 FutbolHamaika. Todos los derechos reservados.</p>
+    </footer>
+    <script src="juego1.js"></script>
+</body>
+</html>
