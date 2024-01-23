@@ -1,1 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+#imagen-difuminada {
+    width: 300px;
+    height: 300px;
+    background: url('imagen_difuminada.jpg') center/cover;
+    margin: 20px auto;
+    filter: blur(10px);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#intentos-restantes {
+    margin-top: 20px;
+}
+
+#mensaje-resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
